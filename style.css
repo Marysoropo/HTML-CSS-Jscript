@@ -1,0 +1,71 @@
+    /* style.css */
+
+    /* Body styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+    }
+
+    /* Navbar styles */
+    .navbar {
+        background-color: #343a40;
+        padding: 1rem;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: #ffffff;
+    }
+
+    .nav-link:hover {
+        color: #cccccc;
+    }
+
+    /* Carousel styles */
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* About Us section */
+    .about-us {
+        margin: 2rem;
+        padding: 2rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #333333;
+    }
+
+    /* Form styles */
+    form {
+        margin-top: 1rem;
+    }
+
+    input[type="search"] {
+        padding: 0.5rem;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.5rem 1rem;
+        background-color: #28a745;
+        border: none;
+        border-radius: 0.25rem;
+        color: #ffffff;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #218838;
+    }
